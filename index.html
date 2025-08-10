@@ -25,14 +25,53 @@
                 <img src="./images/search.png" alt="">
                 <input type="text" placeholder="Search" id="search">
             </div>
-            <div class="nav-user-icon online">
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
                 <img src="./images/profile-pic.png" alt="">
             </div>
+        </div>
+        <!-- Settings menu -->
+        <div class="settings-menu">
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <a href="#">See your profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="./images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="./images/setting.png" alt="" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="./images/arrow.png" alt="" width="10"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/help.png" alt="" class="settings-icon">
+                    <a href="#">Help & Support <img src="./images/arrow.png" alt="" width="10"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/display.png" alt="" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="./images/arrow.png" alt="" width="10"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="./images/logout.png" alt="" class="settings-icon">
+                    <a href="#">Logout <img src="./images/arrow.png" alt="" width="10"></a>
+                </div>
+            </div>
+
         </div>
     </nav>
 
     <div class="container">
-        
+
         <!-- Left sidebar -->
         <div class="left-sidebar">
             <div class="imp-links">
@@ -53,6 +92,8 @@
         </div>
         <!-- Main content -->
         <div class="main-content">
+
+
             <div class="story-gallery">
                 <div class="story story1">
                     <img src="./images/upload.png" alt="">
@@ -75,7 +116,183 @@
                     <p>Post Story</p>
                 </div>
             </div>
+
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="./images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholson</p>
+                        <small>Public <img src="./images/down-arrow.png" alt=""></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, John?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="./images/live-video.png" alt=""> Live Video</a>
+                        <a href="#"><img src="./images/photo.png" alt=""> Photo/Video</a>
+                        <a href="#"><img src="./images/feeling.png" alt=""> Feeling/Activity</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#">icon</a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channel to watch more videos on
+                    website development and UI designs. <a href="#">EasyTutorials</a><a href="#">YouTubeChannel</a></p>
+                <img src="./images/feed-image-1.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like-blue.png" alt=""> 120</div>
+                        <div><img src="./images/comments.png" alt=""> 45</div>
+                        <div><img src="./images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" alt=""><img src="./images/down-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#">icon</a>
+                </div>
+
+                <p class="post-text">Like and share this video with friends, tag <span>@Easy Tutorials</span> facebook
+                    page on your post. Ask your doubts in the comment . <a href="#">EasyTutorials</a><a
+                        href="#">YouTubeChannel</a></p>
+                <img src="./images/feed-image-2.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt=""> 120</div>
+                        <div><img src="./images/comments.png" alt=""> 45</div>
+                        <div><img src="./images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" alt=""><img src="./images/down-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#">icon</a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channel to watch more videos on
+                    website development and UI designs. <a href="#">EasyTutorials</a><a href="#">YouTubeChannel</a></p>
+                <img src="./images/feed-image-3.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt=""> 120</div>
+                        <div><img src="./images/comments.png" alt=""> 45</div>
+                        <div><img src="./images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" alt=""><img src="./images/down-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#">icon</a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channel to watch more videos on
+                    website development and UI designs. <a href="#">EasyTutorials</a><a href="#">YouTubeChannel</a></p>
+                <img src="./images/feed-image-4.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt=""> 120</div>
+                        <div><img src="./images/comments.png" alt=""> 45</div>
+                        <div><img src="./images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon" ">
+                        <img src="./images/profile-pic.png" alt=""><img src="./images/down-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>  
+
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="./images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholson</p>
+                            <span>June 24 2021, 13:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#">icon</a>
+                </div>
+
+                <p class="post-text">Subscribe <span>@Easy Tutorials</span> Youtube channel to watch more videos on
+                    website development and UI designs. <a href="#">EasyTutorials</a><a href="#">YouTubeChannel</a></p>
+                <img src="./images/feed-image-5.png" alt="" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="./images/like.png" alt=""> 120</div>
+                        <div><img src="./images/comments.png" alt=""> 45</div>
+                          <div><img src="./images/share.png" alt=""> 20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="./images/profile-pic.png" alt=""><img src="./images/down-arrow.png" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+            <button type="button" class="load-more-btn">Load More</button>
         </div>
+
+
+
         <!-- Right sidebar -->
         <div class="right-sidebar">
             <div class="sidebar-title">
@@ -134,6 +351,10 @@
                 <p>Alicia Keys</p>
             </div>
         </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Easy Tutorials Youtube Channel</p>
     </div>
     <script src="./script.js"></script>
 </body>
