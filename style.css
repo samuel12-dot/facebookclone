@@ -462,11 +462,11 @@ nav {
     overflow: hidden;
     top: 108%;
     right: 5%;
-    max-height: 0;
-    transition: max-height 0.3s linear;
+    height: 0;
+    transition: height 0.3s linear;
 }
 .settings-menu-height {
-    max-height: 450px;
+    height: 450px;
 }
 
 .user-profile a {
