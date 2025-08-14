@@ -481,7 +481,7 @@ nav {
     position: absolute;
     width: 90%;
     max-width: 350px;
-    background: #fff;
+    background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     border-radius: 4px;
     overflow: hidden;
@@ -556,5 +556,150 @@ nav {
 
 #dark-btn.dark-btn-on {
     padding-inline-start: 23px;
-    background: #000;
+    background: #0a0a0a;
+}
+
+
+/* Profile page */
+.profile-container {
+    padding: 20px 15%;
+    color: #626262;
+}
+.cover-img {
+    width: 100%;
+    border-radius: 6px;
+    margin-block-end: 14px;
+}
+.profile-details {
+    background: var(--bg-color);
+    padding: 20px;
+    border-radius: 4px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.pd-row {
+    display: flex;
+    align-items: flex-start;
+}
+.pd-image {
+    width: 100px;
+    margin-inline-end: 20px;
+    border-radius: 6px;
+}
+.pd-row div h3 {
+    font-size: 25px;
+    font-weight: 600;
+}
+.pd-row div p {
+    font-size: 13px;
+}
+.pd-row div img {
+    width: 25px;
+    border-radius: 50%;
+    margin-block-start: 12px;
+}
+.pd-right button {
+    background: #1876f2;
+    border: 0;
+    outline: 0;
+    padding: 6px 10px;
+    display: inline-flex;
+    align-items: center;
+    color: var(--bg-color);
+    border-radius: 3px;
+    margin-inline-start: 10px;
+    cursor: pointer;
+}
+.pd-right button img {
+    height: 15px;
+    margin-inline-end: 10px;
+}
+.pd-right button:first-child {
+    background: #e4e6eb;
+    color: #000;
+}
+.pd-right {
+    text-align: right;
+}
+.pd-right a {
+    background: #e4e6eb;
+    border-radius: 3px;
+    padding: 12px;
+    display: inline-flex;
+    margin-block-start: 30px;
+}
+.pd-right a img {
+    width: 20px;
+}
+.profile-info {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-block-start: 20px;
+}
+.info-col {
+    flex-basis: 33%;
+}
+.post-col {
+    flex-basis: 65%;
+}
+.profile-intro {
+    background: var(--bg-color );
+    padding: 20px;
+    margin-block-end: 20px;
+    border-radius: 4px;
+}
+.profile-intro h3 {
+    font-weight: 600;
+}
+.intro-text {
+    text-align: center;
+    margin: 10px 0;
+    font-size: 15px;
+}
+.intro-text img {
+    width: 15px;
+    margin-block-end: -3px;
+}
+.profile-intro hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 24px 0;
+}
+.profile-intro ul li {
+    list-style: none;
+    font-size: 15px;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.profile-intro ul li img {
+    width: 26px;
+    margin-inline-end: 10px;
+}
+.title-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-box a {
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 14px;
+}
+
+.photo-box {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+    margin-block-start: 15px;
+}
+.photo-box div img {
+    width: 100%;
+    cursor: pointer;
+}
+.profile-intro p {
+    font-size: 14px;
 }
